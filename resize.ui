@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1736</width>
+    <height>848</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="imageLabel">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>20</y>
+      <width>720</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="imageButton">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>530</y>
+      <width>200</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LoadImage</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button2x">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>610</y>
+      <width>200</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button3x">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>610</y>
+      <width>200</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button4x">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>610</y>
+      <width>200</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_2x">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>680</y>
+      <width>200</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1/2x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_3x">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>690</y>
+      <width>200</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1/3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_4x">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>690</y>
+      <width>200</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1/4x</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1736</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRotasi">
+    <property name="title">
+     <string>Rotasi</string>
+    </property>
+    <addaction name="action_45"/>
+    <addaction name="action45"/>
+    <addaction name="action_90"/>
+    <addaction name="action90"/>
+    <addaction name="action180"/>
+   </widget>
+   <addaction name="menuRotasi"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_45">
+   <property name="text">
+    <string>-45</string>
+   </property>
+  </action>
+  <action name="action45">
+   <property name="text">
+    <string>45</string>
+   </property>
+  </action>
+  <action name="action_90">
+   <property name="text">
+    <string>-90</string>
+   </property>
+  </action>
+  <action name="action90">
+   <property name="text">
+    <string>90</string>
+   </property>
+  </action>
+  <action name="action180">
+   <property name="text">
+    <string>180</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
