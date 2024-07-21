@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1415</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="loadbutton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>460</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="citralabel">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>640</width>
+      <height>360</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="citralabel2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>20</y>
+      <width>640</width>
+      <height>360</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadbutton2">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>460</y>
+      <width>152</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Image 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aritmethicButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>550</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>binary</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aritmethicButton_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>550</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>binary invers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aritmethicButton_3">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>550</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>trunc</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aritmethicButton_4">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>550</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>toZero</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aritmethicButton_5">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>550</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>toZero invers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aritmethicButton_6">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>460</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>adaptive</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aritmethicButton_7">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>460</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>otsu</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1415</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuoperasi_titik">
+    <property name="title">
+     <string>Rotasi</string>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>true</bool>
+    </property>
+    <addaction name="actionMin45_Degree"/>
+    <addaction name="action45_Degree"/>
+    <addaction name="actionMin90_Degree"/>
+    <addaction name="action90_Degree"/>
+    <addaction name="action180_Degree"/>
+   </widget>
+   <widget class="QMenu" name="menurotasi">
+    <property name="title">
+     <string>rotasi</string>
+    </property>
+   </widget>
+   <addaction name="menuoperasi_titik"/>
+   <addaction name="menurotasi"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMin45_Degree">
+   <property name="text">
+    <string>-45 Degree</string>
+   </property>
+  </action>
+  <action name="action45_Degree">
+   <property name="text">
+    <string>45 Degree</string>
+   </property>
+  </action>
+  <action name="actionMin90_Degree">
+   <property name="text">
+    <string>-90 Degree</string>
+   </property>
+  </action>
+  <action name="action90_Degree">
+   <property name="text">
+    <string>90 Degree</string>
+   </property>
+  </action>
+  <action name="action180_Degree">
+   <property name="text">
+    <string>180 Degree</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
